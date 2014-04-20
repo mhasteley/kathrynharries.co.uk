@@ -1,0 +1,24 @@
+.nav#banner-pic {
+    height: 127px;
+    width: 650px;
+    background-image: url('../pics/header_pic_music.jpg');
+}
+
+.nav#arrow-music {
+    background-image: url('../pics/arrow_music.gif');
+    margin: 0 562px 0 34px  
+}
+#music-main-image {
+    margin: 0 130px 10px 0;
+    background-image: url('../pics/1_music.jpg');
+}
+@media (max-width: 321px){
+    .nav#banner-pic {
+        height: 62.5px;
+        width: 320px;
+        background-size: 100%;
+    }
+    #about-main-image {
+        margin: 0 0 10px 0;
+    }
+}

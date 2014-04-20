@@ -1,0 +1,28 @@
+.nav#banner-pic {
+    height: 127px;
+    width: 650px;
+    background-image: url('../pics/header_pic_shows.jpg');
+}
+.nav#arrow-shows {
+    background-image: url('../pics/arrow_shows.gif');
+    margin: 0 465px 0 121px;
+}
+#shows-main-image {
+    margin: 0 130px 10px 0;
+    background-image: url('../pics/1_shows.jpg');
+}
+@media (max-width: 321px){
+    .nav#banner-pic {
+        height: 62.5px;
+        width: 320px;
+        background-size: 100%;
+    }
+    .nav#banner-title {
+        height: 42.8px;
+        width: 320px;
+        background-size: 100%;
+    }
+    #shows-main-image {
+        margin: 0 0 10px 0;
+    }
+}

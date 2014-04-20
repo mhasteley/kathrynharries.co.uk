@@ -1,0 +1,42 @@
+.nav#banner-pic {
+    height: 127px;
+    width: 650px;
+    background-image: url('../pics/header_pic_gallery.jpg');
+}
+.press-index-gallery {
+    width: 80px;
+    height: 80px;
+}
+#press-index-main-image {
+    margin: 0 70px 10px 0;
+    background-image: url('../pics/1_gallery.jpg');
+}
+#press-index-1 {    
+    margin: 0 20px 10px 0;
+    background-image: url('../pics/press/t_T4Z4902.jpg');
+}
+#press-index-2 {    
+    margin: 0 20px 10px 0;
+    background-image: url('../pics/press/t_T4Z4713.jpg');
+}
+#press-index-3 {    
+    margin: 0 20px 10px 0;
+    background-image: url('../pics/press/t_T4Z4789.jpg');
+}
+
+
+@media (max-width: 321px){
+    .nav#banner-pic {
+        height: 62.5px;
+        width: 320px;
+        background-size: 100%;
+    }
+    .nav#banner-title {
+        height: 42.8px;
+        width: 320px;
+        background-size: 100%;
+    }
+    #press-index-main-image {
+        margin: 0 0 10px 0;
+    }
+}

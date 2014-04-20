@@ -1,0 +1,161 @@
+.nav#banner-pic {
+    height: 127px;
+    width: 650px;
+    background-image: url('../pics/header_pic_gallery.jpg');
+}
+.nav#arrow-gallery {
+    background-image: url('../pics/arrow_gallery.gif');
+    margin: 0 243px 0 352px;
+}
+#gallery-main-image {
+    margin: 0 130px 10px 0;
+    background-image: url('../pics/1_gallery.jpg');
+}
+.gallery-grid {
+    display: block;
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-size: 100%;
+    margin-bottom: 20px;
+    font-size: 0em;
+}
+.gallery-grid-mid {
+    margin-right: 20px;
+}
+.gallery-wrapper {
+    display: block;
+    position: relative;
+    float: left;
+    width: 380px;
+    margin-bottom: 10px;
+}
+.gallery-wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#gallery-grid-1 {
+    background-image: url('../pics/gallery/t1.jpg');
+}
+#gallery-grid-2 {
+    background-image: url('../pics/gallery/t2.jpg');
+}
+#gallery-grid-3 {
+    background-image: url('../pics/gallery/t3.jpg');
+}
+#gallery-grid-4 {
+    background-image: url('../pics/gallery/t4.jpg');
+}
+#gallery-grid-5 {
+    background-image: url('../pics/gallery/t5.jpg');
+}
+#gallery-grid-6 {
+    background-image: url('../pics/gallery/t6.jpg');
+}
+#gallery-grid-7 {
+    background-image: url('../pics/gallery/t7.jpg');
+}
+#gallery-grid-8 {
+    background-image: url('../pics/gallery/t29_cry08.gif');
+}
+#gallery-grid-9 {
+    background-image: url('../pics/gallery/t30_cry08.gif');
+}
+#gallery-grid-10 {
+    background-image: url('../pics/gallery/t31_cry08.gif');
+}
+#gallery-grid-11 {
+    background-image: url('../pics/gallery/t9.jpg');
+}
+#gallery-grid-12 {
+    background-image: url('../pics/gallery/t10.jpg');
+}
+#gallery-grid-13 {
+    background-image: url('../pics/gallery/t11.jpg');
+}
+#gallery-grid-14 {
+    background-image: url('../pics/gallery/t12.jpg');
+}
+#gallery-grid-15 {
+    background-image: url('../pics/gallery/t13.jpg');
+}
+#gallery-grid-16 {
+    background-image: url('../pics/gallery/t14.jpg');
+}
+#gallery-grid-17 {
+    background-image: url('../pics/gallery/t15.jpg');
+}
+#gallery-grid-18 {
+    background-image: url('../pics/gallery/t16.jpg');
+}
+#gallery-grid-19 {
+    background-image: url('../pics/gallery/t17.jpg');
+}
+#gallery-grid-20 {
+    background-image: url('../pics/gallery/t18.jpg');
+}
+#gallery-grid-21 {
+    background-image: url('../pics/gallery/t19.jpg');
+}
+#gallery-grid-22 {
+    background-image: url('../pics/gallery/t20.jpg');
+}
+#gallery-grid-23 {
+    background-image: url('../pics/gallery/t21.jpg');
+}
+#gallery-grid-24 {
+    background-image: url('../pics/gallery/t22.jpg');
+}
+#gallery-grid-25 {
+    background-image: url('../pics/gallery/t23.jpg');
+}
+#gallery-grid-26 {
+    background-image: url('../pics/gallery/t24.jpg');
+}
+#gallery-grid-27 {
+    background-image: url('../pics/gallery/t25.jpg');
+}
+#gallery-grid-28 {
+    background-image: url('../pics/gallery/t26.jpg');
+}
+#gallery-grid-29 {
+    background-image: url('../pics/gallery/t27.jpg');
+}
+#gallery-grid-30 {
+    background-image: url('../pics/gallery/t28.jpg');
+}
+
+.gallery-pop {
+    list-style-type:none;
+    height: 50%;
+}
+
+#gallery-pop-1 {
+    background-image: url('../pics/gallery/1.jpg');   
+}
+
+@media (max-width: 321px) {
+    .nav#banner-pic {
+        height: 62.5px;
+        width: 320px;
+        background-size: 100%;
+    }
+    .nav#banner-title {
+        height: 42.8px;
+        width: 320px;
+        background-size: 100%;
+    }
+    #gallery-main-image {
+        margin: 0 0 10px 0;
+    }
+    .gallery-grid {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 10px;
+    }
+    .gallery-grid-mid {
+        margin: 0 5px;
+    }
+}

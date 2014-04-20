@@ -1,0 +1,45 @@
+.nav#banner-pic {
+    height: 127px;
+    width: 650px;
+    background-image: url('../pics/header_pic_about.jpg');
+}
+
+.nav#arrow-about {
+    background-image: url('../pics/arrow_about.gif');
+    margin: 0 0 0 596px;
+}
+#about-main-image {
+    margin: 0 130px 10px 0;
+    background-image: url('../pics/1_about.jpg');
+}
+#about-sub-image-1 {
+    margin: 100px 200px 10px 0;
+    background-image: url('../pics/opera_1.jpg');
+}
+#about-sub-image-2 {
+    margin: 10px 200px 10px 0;
+    background-image: url('../pics/opera_2.jpg');
+}
+#about-sub-image-3 {
+    margin: 10px 200px 10px 0;
+    background-image: url('../pics/opera_3.jpg');
+}
+@media (max-width: 321px) {
+    .nav#banner-pic {
+        height: 62.5px;
+        width: 320px;
+        background-size: 100%;
+    }
+    #about-main-image {
+        margin: 0 0 10px 0;
+    }
+    #about-sub-image-1 {
+        margin: 0;
+    }
+    #about-sub-image-2 {
+        margin: 0;
+    }
+    #about-sub-image-3 {
+        margin: 0 0 20px 0;
+    }
+}

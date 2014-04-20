@@ -1,0 +1,29 @@
+.nav#banner-pic {
+    height: 263px;
+    width: 650px;
+    background-image: url('../pics/entry_header_pic.jpg');
+}
+.nav#banner-title {
+    height: 107px;
+    width: 650px;
+    background-image: url('../pics/entry_header.gif');
+}
+#index-nav-wrap {
+    height: 399px;  
+}
+@media (max-width: 321px) {
+    .nav#banner-pic {
+        height: 129.5px;
+        width: 320px;
+        background-size: 100%;
+    }
+    .nav#banner-title {
+        height: 52.7px;
+        width: 320px;
+        background-size: 100%;
+    }
+    #index-nav-wrap {
+        height: 356.2px;  
+    }
+
+}
