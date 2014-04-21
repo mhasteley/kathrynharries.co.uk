@@ -1,6 +1,4 @@
 .nav#banner-pic {
-    height: 127px;
-    width: 650px;
     background-image: url('../pics/header_pic_gallery.jpg');
 }
 
@@ -245,11 +243,6 @@
 }
 
 @media (max-width: 321px) {
-    .nav#banner-pic {
-        height: 62.5px;
-        width: 320px;
-        background-size: 100%;
-    }
     .nav#banner-title {
         height: 42.8px;
         width: 320px;

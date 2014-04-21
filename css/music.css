@@ -1,6 +1,4 @@
 .nav#banner-pic {
-    height: 127px;
-    width: 650px;
     background-image: url('../pics/header_pic_music.jpg');
 }
 
@@ -13,11 +11,6 @@
     background-image: url('../pics/1_music.jpg');
 }
 @media (max-width: 321px){
-    .nav#banner-pic {
-        height: 62.5px;
-        width: 320px;
-        background-size: 100%;
-    }
     #about-main-image {
         margin: 0 0 10px 0;
     }

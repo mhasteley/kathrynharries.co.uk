@@ -23,6 +23,10 @@ a.nav-button {
     height: 100%;
     display: block;
 }
+.nav.banner-pic {
+    height: 127px;
+    width: 650px;
+}
 .nav#banner-title {
     height: 87px;
     width: 650px;
@@ -88,6 +92,9 @@ a.nav-button {
 }
 
 @media (max-width: 321px) {
+    .nav.banner-pic {
+        height: 0px;
+    }
     .nav#banner-title {
         height: 42.8px;
         width: 320px;
