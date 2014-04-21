@@ -34,6 +34,10 @@
     font-size: 0em;
 }
 
+.gallery.grid:hover {
+    opacity: 0.5;
+}
+
 .gallery.grid.mid {
     margin-right: 20px;
 }
