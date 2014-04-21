@@ -1,26 +1,33 @@
-/* General styles for the modal */
-
-/* 
-Styles for the html/body for special modal where we want 3d effects
-Note that we need a container wrapping all content on the page for the 
-perspective effects (not including the modals and the overlay).
-*/
-.md-perspective,
-.md-perspective body {
-    height: 100%;
-    overflow: hidden;
+button {
+    border: 0;
+    padding: 0;
+    background: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 -4px -4px 0;
+    border-radius: 0;
+    outline: none;
 }
 
-.md-perspective body  {
-    background: #222;
-    -webkit-perspective: 600px;
-    -moz-perspective: 600px;
-    perspective: 600px;
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
 }
 
-.container {
-    background: #e74c3c;
-    min-height: 100%;
+button.md-close {	
+    position: fixed;
+    top: 50%;
+    left: 0;
+    margin: 0;
+    padding: 4px 8px 6px 8px;
+    background: #faa74a;
+    color: #ffffff;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.md-trigger{
 }
 
 .md-modal {
@@ -73,25 +80,10 @@ perspective effects (not including the modals and the overlay).
     margin: 0 auto;
 }
 
-.md-content h3 {
-    margin: 0;
-    padding: 0.4em;
-    text-align: center;
-    font-size: 2.4em;
-    font-weight: 300;
-    opacity: 0.8;
-    background: rgba(0,0,0,0.1);
-    border-radius: 3px 3px 0 0;
-}
-
-
 .md-content button {
     display: block;
-    margin: 10px auto;
     font-size: 0.8em;
 }
-
-/* Individual modal styles with animations/transitions */
 
 /* Effect 1: Fade in and scale up */
 .md-effect-1 .md-content {
