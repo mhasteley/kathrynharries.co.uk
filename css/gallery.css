@@ -255,12 +255,12 @@
         width: 320px;
     }
     .gallery.grid {
-        width: 72px;
-        height: 72px;
-        margin-bottom: 10px;
+        width: 69px;
+        height: 69px;
+        margin-bottom: 8px;
     }
     .gallery.grid.mid {
-        margin-right: 10px;
+        margin-right: 8px;
     }
     button.md-close {
         margin-left: 10px;
