@@ -36,6 +36,9 @@
 
 .gallery.grid:hover {
     opacity: 0.5;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .gallery.grid.mid {
