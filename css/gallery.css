@@ -258,13 +258,16 @@
     #gallery-main-image {
         margin: 0 0 10px 0;
     }
-    .gallery-grid {
-        width: 70px;
-        height: 70px;
+    .gallery-wrapper {
+        width: 320px;
+    }
+    .gallery.grid {
+        width: 72px;
+        height: 72px;
         margin-bottom: 10px;
     }
-    .gallery-grid-mid {
-        margin: 0 5px;
+    .gallery.grid.mid {
+        margin-right: 10px;
     }
     button.md-close {
         margin-left: 10px;
