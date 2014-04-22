@@ -9,7 +9,9 @@
         <link type="text/css" rel="stylesheet" href="css/kathryn.css">
         <link type="text/css" rel="stylesheet" href="css/gallery.css">
         <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/modernizr.custom.js"></script>
+        <script src="js/jquery.imageloader.js"></script>
         <script>
             (function(i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
@@ -46,6 +48,8 @@
                 <!-- Images -->
                 <div class="main-left">
                     <div class="image main-image" id="gallery-main-image"></div>
+                        <div class="gallery-pop" data-src="pics/gallery/1.jpg">1</div>
+                    <button class="square">load!</button>
                 </div>
 
                 <!-- Body -->
@@ -56,43 +60,43 @@
 
                         <div class="gallery-wrapper" id="image-popups">
                             <h2>Opera Performances</h2>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-1" id="gallery-grid-1"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-2" id="gallery-grid-2"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-3" id="gallery-grid-3"></button>
-                            <button class="md-trigger gallery grid" data-modal="modal-4" id="gallery-grid-4"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-5" id="gallery-grid-5"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-6" id="gallery-grid-6"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-7" id="gallery-grid-7"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-1" id="gallery-grid-1"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-2" id="gallery-grid-2"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-3" id="gallery-grid-3"></button>
+                            <button class="square md-trigger gallery grid" data-modal="modal-4" id="gallery-grid-4"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-5" id="gallery-grid-5"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-6" id="gallery-grid-6"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-7" id="gallery-grid-7"></button>
                         </div>
 
                         <div class="gallery-wrapper">
                             <h2>The CRY Walk</h2>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-8" id="gallery-grid-8"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-9" id="gallery-grid-9"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-10" id="gallery-grid-10"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-8" id="gallery-grid-cry29"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-9" id="gallery-grid-cry30"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-10" id="gallery-grid-cry31"></button>
                         </div>
 
                         <div class="gallery-wrapper"><h2>The Opera Walk</h2>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-11" id="gallery-grid-11"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-12" id="gallery-grid-12"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-13" id="gallery-grid-13"></button>
-                            <button class="md-trigger gallery grid" data-modal="modal-14" id="gallery-grid-14"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-15" id="gallery-grid-15"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-16" id="gallery-grid-16"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-17" id="gallery-grid-17"></button>
-                            <button class="md-trigger gallery grid" data-modal="modal-18" id="gallery-grid-18"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-19" id="gallery-grid-19"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-20" id="gallery-grid-20"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-21" id="gallery-grid-21"></button>
-                            <button class="md-trigger gallery grid" data-modal="modal-22" id="gallery-grid-22"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-23" id="gallery-grid-23"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-24" id="gallery-grid-24"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-25" id="gallery-grid-25"></button>
-                            <button class="md-trigger gallery grid" data-modal="modal-26" id="gallery-grid-26"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-27" id="gallery-grid-27"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-28" id="gallery-grid-28"></button>
-                            <button class="md-trigger gallery grid mid" data-modal="modal-29" id="gallery-grid-29"></button>
-                            <button class="md-trigger gallery grid" data-modal="modal-30" id="gallery-grid-30"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-11" id="gallery-grid-9"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-12" id="gallery-grid-10"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-13" id="gallery-grid-11"></button>
+                            <button class="square md-trigger gallery grid" data-modal="modal-14" id="gallery-grid-12"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-15" id="gallery-grid-13"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-16" id="gallery-grid-14"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-17" id="gallery-grid-15"></button>
+                            <button class="square md-trigger gallery grid" data-modal="modal-18" id="gallery-grid-16"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-19" id="gallery-grid-17"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-20" id="gallery-grid-18"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-21" id="gallery-grid-19"></button>
+                            <button class="square md-trigger gallery grid" data-modal="modal-22" id="gallery-grid-20"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-23" id="gallery-grid-21"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-24" id="gallery-grid-22"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-25" id="gallery-grid-23"></button>
+                            <button class="square md-trigger gallery grid" data-modal="modal-26" id="gallery-grid-24"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-27" id="gallery-grid-25"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-28" id="gallery-grid-26"></button>
+                            <button class="square md-trigger gallery grid mid" data-modal="modal-29" id="gallery-grid-27"></button>
+                            <button class="square md-trigger gallery grid" data-modal="modal-30" id="gallery-grid-28"></button>
                         </div>
 
                         <div class="footer">
@@ -105,182 +109,182 @@
         <!-- Popups -->
         <div class="md-modal md-effect-1 portrait" id="modal-1">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-1"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/1.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-2">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-2"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/2.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-3">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-3"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/3.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 portrait" id="modal-4">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-4"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/4.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 portrait" id="modal-5">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-5"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/5.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 portrait" id="modal-6">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-6"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/6.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 portrait" id="modal-7">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-7"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/7.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-8">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-8"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/29_cry08.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-9">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-9"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/30_cry08.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
-                <div class="md-modal md-effect-1 landscape" id="modal-10">
+        <div class="md-modal md-effect-1 landscape" id="modal-10">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-10"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/31_cry08.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-11">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-11"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/9.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-12">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-12"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/10.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-13">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-13"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/11.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-14">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-14"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/12.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-15">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-15"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/13.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-16">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-16"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/14.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-17">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-17"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/15.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-18">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-18"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/16.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-19">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-19"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/17.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-20">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-20"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" data-src="pics/gallery/18.jpg"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 portrait" id="modal-21">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-21"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" id="gallery-pop-21"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-22">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-22"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" id="gallery-pop-22"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 portrait" id="modal-23">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-23"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" id="gallery-pop-23"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 portrait" id="modal-24">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-24"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" id="gallery-pop-24"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-25">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-25"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" id="gallery-pop-25"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 portrait" id="modal-26">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-26"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" id="gallery-pop-26"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-27">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-27"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" id="gallery-pop-27"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-28">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-28"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" id="gallery-pop-28"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-29">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-29"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" id="gallery-pop-29"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
         <div class="md-modal md-effect-1 landscape" id="modal-30">
             <div class="md-content">
-                    <div class="gallery-pop" id="gallery-pop-30"></div>
-                    <button class="md-close">x</button>
+                <div class="gallery-pop" id="gallery-pop-30"></div>
+                <button class="md-close">x</button>
             </div>
         </div>
 
@@ -299,6 +303,8 @@
         <script src="js/cssParser.js"></script>
         <script src="js/css-filters-polyfill.js"></script>
 
+        <!-- Lazy Load images -->
+        <script src="js/lazy.js"></script>
     </body>
 </html>
 
