@@ -15,10 +15,10 @@
                 ev.preventDefault();
                 $('.gallery-pop').imageloader(
                         {
-                            background: true,
-                            callback: function(elm) {
-                                $(elm).fadeIn();
-                            }
+                            background: true
+//                            callback: function(elm) {
+//                                $(elm).fadeIn(); 
+//                            }
                         }
                 );
             };
