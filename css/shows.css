@@ -10,11 +10,6 @@
     background-image: url('../pics/1_shows.jpg');
 }
 @media (max-width: 321px){
-    .nav#banner-title {
-        height: 42.8px;
-        width: 320px;
-        background-size: 100%;
-    }
     #shows-main-image {
         margin: 0 0 10px 0;
     }

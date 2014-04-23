@@ -13,15 +13,19 @@
 }
 @media (max-width: 321px) {
     .nav#banner-pic {
-        height: 129.5px;
-        width: 320px;
-        background-size: 100%;
-        margin: 20px 0 0 0;
+        height: 20%;
+        min-height: 100px;
+        width: 100%;
+        background-size: cover;
+        background-position: top left;
+        margin: 0;
     }
     .nav#banner-title {
-        height: 52.7px;
-        width: 320px;
-        background-size: 100%;
+        height: 10%;
+        min-height: 52px;
+        width: 100%;
+        background-size: cover;
+        background-position: bottom left;
     }
     #index-nav-wrap {
         height: 356.2px;  
