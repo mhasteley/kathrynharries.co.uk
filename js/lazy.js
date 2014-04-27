@@ -1,6 +1,18 @@
-(
+/*
+ 
+ str="Please visit Microsoft!"
+ var n=str.replace("Microsoft","W3Schools");
+ document.getElementsByClassName("gallery").id()
+ document.getElementsByClassName("gallery");
+ for (var i = 0; i < buttons.length; i++)
+ document.getElementById("#gallery-grid-"+i).click("gallery"+i);
+ 
+ */
+
+
+
+$(document).ready(
         function() {
-            var datastorekey = {};
             $(
                     function() {
                         $('#gallery-grid-1').click(gallery1);
@@ -33,7 +45,6 @@
                         $('#gallery-grid-26').click(gallery26);
                         $('#gallery-grid-27').click(gallery27);
                         $('#gallery-grid-28').click(gallery28);
-
                     }
             );
 
@@ -158,4 +169,25 @@
                 $('#g28').imageloader({background: true});
             };
         }
-)();
+);
+
+function myFunction()
+{
+    var i = document.getElementsByClassName("gallery")[0];
+
+    function blah() {
+
+        (i.getAttribute("id")).click(gallery + (i.getAttribute("id") - "#gallery-grid-"));
+
+        document.getElementById("demo").innerHTML =
+                i.getAttribute("id");
+    }
+    ;
+    var k = "gallery" + (i.getAttribute("id") - "#gallery-grid-");
+    var k = function(ev) {
+        ev.preventDefault();
+        $("#g" + k).imageloader({background: true});
+    }
+    ;
+}
+;

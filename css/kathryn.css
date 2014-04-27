@@ -120,7 +120,7 @@ h2 {
     margin: 20px auto;
 }
 .content {
-    display: table;
+    display: block;
     position: relative;
     top: 60px;
 }
