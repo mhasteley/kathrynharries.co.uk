@@ -4,7 +4,7 @@
 
 .nav#arrow-gallery {
     background-image: url('../pics/arrow_gallery.gif');
-    margin: 0 243px 0 352px;
+    background-position: 352px center;
 }
 
 #gallery-main-image {

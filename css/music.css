@@ -4,7 +4,7 @@
 
 .nav#arrow-music {
     background-image: url('../pics/arrow_music.gif');
-    margin: 0 562px 0 34px  
+    background-position: 34px center;
 }
 #music-main-image {
     margin: 0 130px 10px 0;

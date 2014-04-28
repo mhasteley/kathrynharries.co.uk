@@ -3,7 +3,7 @@
 }
 .nav#arrow {
     background-image: url('../pics/arrow_contact.gif');
-    margin: 0 148px 0 448px;
+    background-position: 448px center;
 }
 #contact-main-image {
     margin: 0 130px 10px 0;

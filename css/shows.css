@@ -3,7 +3,7 @@
 }
 .nav#arrow-shows {
     background-image: url('../pics/arrow_shows.gif');
-    margin: 0 465px 0 121px;
+    background-position: 121px center;
 }
 #shows-main-image {
     margin: 0 130px 10px 0;

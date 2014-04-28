@@ -3,7 +3,7 @@
 }
 .nav#arrow-walk {
     background-image: url('../pics/arrow_walk.gif');
-    margin: 0 332px 0 264px;
+    background-position: 264px center;
 }
 #walk-main-image {
     margin: 0 130px 10px 0;

@@ -21,7 +21,7 @@ audio {
 
 /*text*/
 a, TD, SELECT, INPUT {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
     color: #faa74a;
     text-decoration: none;
 }
@@ -30,58 +30,48 @@ a:hover {
     text-decoration: underline;
 }
 p {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     font-size: 0.7em;
     line-height: 135%;
     color: #666;
 }
-p.navylink {
-    color: #000;
-}
 h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 1.6em;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.7em;
     color: #faa74a;
     text-transform: uppercase;
     margin-top: -0.3em;
 }
 h2 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 0.85em;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
     line-height: 128%;
     color: #faa74a;
 }
-.bullf {
-    font-weight: normal;
-    font-size: 0.7em;
-    line-height: 170%;
-    color: #444;
+strong {
+    font-family: 'Patua One', Georgia, serif;
+    font-weight: 400;
+    font-size: 1.1em;
 }
 .sub-emph {
-    font-weight: bold;
+    font-weight: 400;
     font-size: 0.7em;
     line-height: 128%;
     color: #faa74a;
 }
 .copyf {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 0.6em;
     color: #999;
     padding: 10px 0;
 }
 .barf {
-    font-weight: bold;
+    font-weight: normal;
     font-size: 0.85em;
     color: #fff;
-}
-.captionf {
-    font-weight: bold;
-    font-style: italic;
-    font-size: 0.7em;
-    color: #444;
 }
 .navf {
     font-size: 0.6em;
@@ -105,7 +95,7 @@ h2 {
     height: 130px;
     width: 130px;
 }
-.pink {
+.pink { /* boxes for bullets */
     float: left;
     display: block;
     height: 5px;

@@ -4,7 +4,7 @@
 
 .nav#arrow-about {
     background-image: url('../pics/arrow_about.gif');
-    margin: 0 0 0 596px;
+    background-position: 596px center;
 }
 #about-main-image {
     margin: 0 130px 10px 0;
