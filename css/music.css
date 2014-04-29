@@ -14,4 +14,11 @@
     #about-main-image {
         margin: 0 0 10px 0;
     }
+    #note {
+        margin: 0 10px 0 10px
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    background-image: url('../pics/1_music-hd.jpg');
 }

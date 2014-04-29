@@ -1,11 +1,15 @@
 /*
  
- str="Please visit Microsoft!"
- var n=str.replace("Microsoft","W3Schools");
- document.getElementsByClassName("gallery").id()
- document.getElementsByClassName("gallery");
- for (var i = 0; i < buttons.length; i++)
- document.getElementById("#gallery-grid-"+i).click("gallery"+i);
+ function myFunction()
+ {
+ var allElements = document.getElementsByClassName("blah");
+ var allIds = [];
+ for (var i = 0, n = allElements.length; i < n; ++i) {
+ var el = allElements[i];
+ if (el.id) { allIds.push(el.id); }
+ };
+ document.getElementById("demo").innerHTML=allIds;
+ };
  
  */
 
@@ -171,16 +175,20 @@ $(document).ready(
         }
 );
 
-function myFunction()
+
+
+/* function myFunction(clicked_id)
 {
+
+var 
+   var my = this.
     var i = document.getElementsByClassName("gallery")[0];
 
     function blah() {
 
-        (i.getAttribute("id")).click(gallery + (i.getAttribute("id") - "#gallery-grid-"));
+        "#gallery-grid-"+i.getAttribute("id");
 
-        document.getElementById("demo").innerHTML =
-                i.getAttribute("id");
+        document.getElementById("demo").innerHTML = i.getAttribute("id");
     }
     ;
     var k = "gallery" + (i.getAttribute("id") - "#gallery-grid-");
@@ -191,3 +199,49 @@ function myFunction()
     ;
 }
 ;
+
+http://stackoverflow.com/questions/4825295/javascript-onclick-to-get-the-id-of-the-clicked-button
+get calls via arguments
+<button id="1" onClick="reply_click(this.id)">B1</button>
+<button id="2" onClick="reply_click(this.id)">B2</button>
+<button id="3" onClick="reply_click(this.id)">B3</button>
+
+<script type="text/javascript">
+function reply_click(clicked_id)
+{
+    document.getElementById("a").innerHTML = (clicked_id);
+}
+</script>
+
+tidy version:
+<button id="1">Button 1</button>
+<button id="2">Button 2</button>
+<button id="3">Button 3</button>
+
+<script type="text/javascript">
+var reply_click = function()
+{
+    alert("Button clicked, id "+this.id+", text"+this.innerHTML);
+}
+document.getElementById('1').onclick = reply_click;
+document.getElementById('2').onclick = reply_click;
+document.getElementById('3').onclick = reply_click;
+</script>
+
+iterate version:
+<button id="some_id1">1</button>
+<button id="some_id2">2</button>
+<button id="some_id3">3</button>
+<button id="some_id4">4</button>
+<button id="some_id5">5</button>
+<p id="a">asd</p>
+
+var buttons = document.getElementsByTagName("button");
+var buttonsCount = buttons.length;
+for (var i = 0; i <= buttonsCount; i += 1) {
+    buttons[i].onclick = function(e) {
+        document.getElementById("a").innerHTML = (this.id);
+    };
+}
+
+    */

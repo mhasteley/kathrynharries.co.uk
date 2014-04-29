@@ -181,3 +181,7 @@
     }	
 
 }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    background-image: url('../pics/1_gallery-hd.jpg');
+}

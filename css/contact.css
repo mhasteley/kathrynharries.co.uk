@@ -14,3 +14,7 @@
         margin: 0 0 10px 0;
     }
 }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    background-image: url('../pics/1_contact-hd.jpg');
+}
