@@ -26,6 +26,7 @@ $(document).ready(
                         $('#gallery-grid-5').click(gallery5);
                         $('#gallery-grid-6').click(gallery6);
                         $('#gallery-grid-7').click(gallery7);
+                        $('#gallery-grid-8').click(gallery8);
                         $('#gallery-grid-cry29').click(gallerycry29);
                         $('#gallery-grid-cry30').click(gallerycry30);
                         $('#gallery-grid-cry31').click(gallerycry31);
@@ -79,6 +80,10 @@ $(document).ready(
             var gallery7 = function(ev) {
                 ev.preventDefault();
                 $('#g7').imageloader({background: true});
+            };
+            var gallery8 = function(ev) {
+                ev.preventDefault();
+                $('#g8').imageloader({background: true});
             };
             var gallerycry29 = function(ev) {
                 ev.preventDefault();
