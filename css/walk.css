@@ -14,17 +14,18 @@
     background-image: url('../pics/30_cry08_side.jpg');
 }
 @media (max-width: 321px){
-    #about-main-image {
+    #walk-main-image {
         margin: 0 0 10px 0;
+        background-image: url('../pics/1_walk-hd.jpg');
     }
     #walk-main-image-1 {
         height: 0;
     }
 }
 
-@media  only screen and (min-device-pixel-ratio: 2),   
-only screen and (min-resolution: 192dpi) {  
-    #walk-main-image-1 {
-        background-image: url('../pics/1_walk-hd.jpg');
-    }
-}
+// @media  only screen and (min-device-pixel-ratio: 2),   
+// only screen and (min-resolution: 192dpi) {  
+//     #walk-main-image-1 {
+//         background-image: url('../pics/1_walk-hd.jpg');
+//     }
+// }

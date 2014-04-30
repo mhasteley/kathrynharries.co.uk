@@ -25,6 +25,7 @@
 @media (max-width: 321px) {
     #about-main-image {
         margin: 0 0 10px 0;
+        background-image: url('../pics/1_about-hd.jpg');
     }
     #about-sub-image-1 {
         margin: 0;
@@ -37,9 +38,9 @@
     }
 }
 
-@media  only screen and (min-device-pixel-ratio: 2),   
-only screen and (min-resolution: 192dpi) {  
-    #about-main-image {
-        background-image: url('../pics/1_about-hd.jpg');
-    }
-}
+// @media  only screen and (min-device-pixel-ratio: 2),   
+// only screen and (min-resolution: 192dpi) {  
+//     #about-main-image {
+//         background-image: url('../pics/1_about-hd.jpg');
+//     }
+// }
