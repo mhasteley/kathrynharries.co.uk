@@ -13,11 +13,11 @@
 }
 @media (max-width: 321px) {
     .nav#banner-pic {
-        height: 20%;
+        height: 30%;
         min-height: 100px;
         width: 100%;
         background-size: cover;
-        background-position: top left;
+        background-position: top center;
         margin: 0;
     }
     .nav#banner-title {
