@@ -24,5 +24,7 @@
 
 @media  only screen and (min-device-pixel-ratio: 2),   
 only screen and (min-resolution: 192dpi) {  
-    background-image: url('../pics/1_walk-hd.jpg');
+    #walk-main-image-1 {
+        background-image: url('../pics/1_walk-hd.jpg');
+    }
 }

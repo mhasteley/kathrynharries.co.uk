@@ -43,5 +43,7 @@
 
 @media  only screen and (min-device-pixel-ratio: 2),   
 only screen and (min-resolution: 192dpi) {  
-    background-image: url('../pics/1_gallery-hd.jpg');
+    #press-index-main-image {
+        background-image: url('../pics/1_gallery-hd.jpg');
+    }
 }
