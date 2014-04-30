@@ -32,6 +32,12 @@ a.nav-button {
     width: 650px;
     background-image: url('../pics/header.gif');
 }
+.nav-wrap {
+    display: block;
+    height: 29px;
+    width: 650px;
+    float: left;
+}
 .nav#nav_music {
     height: 29px;
     width: 88px;
@@ -100,6 +106,12 @@ a.nav-button {
         width: 100%;
         background-size: cover;
         background-position: left;
+    }
+    .nav-wrap {
+        display: block;
+        height: 174px;
+        width: 100%;
+        float: left;
     }
     .nav#nav_music { 
         width: 100%;
