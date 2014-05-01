@@ -1,6 +1,4 @@
 .nav#banner-pic {
-    height: 127px;
-    width: 650px;
     background-image: url('../pics/header_pic_gallery.jpg');
 }
 .press-index-gallery {
@@ -24,26 +22,22 @@
     background-image: url('../pics/press/t_T4Z4789.jpg');
 }
 
-
 @media (max-width: 321px){
-    .nav#banner-pic {
-        height: 62.5px;
-        width: 320px;
-        background-size: 100%;
-    }
-    .nav#banner-title {
-        height: 42.8px;
-        width: 320px;
-        background-size: 100%;
-    }
     #press-index-main-image {
         margin: 0 0 10px 0;
+        background-image: url('../pics/1_gallery-hd.jpg');
     }
 }
 
-@media  only screen and (min-device-pixel-ratio: 2),   
+@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),  
+only screen and (   min--moz-device-pixel-ratio: 1.5),  
+only screen and (     -o-min-device-pixel-ratio: 3/2),  
+only screen and (        min-device-pixel-ratio: 1.5),  
 only screen and (min-resolution: 192dpi) {  
-    #press-index-main-image {
-        background-image: url('../pics/1_gallery-hd.jpg');
+    #press-index-main-image {  
+        background-image: url('../pics/1_gallery-hd.jpg');  
+    }  
+    .nav#banner-pic {
+        background-image: url('../pics/header_pic_gallery-hd.jpg');
     }
 }

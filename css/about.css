@@ -3,7 +3,7 @@
 }
 
 .nav#arrow-about {
-    background-image: url('../pics/arrow_about.gif');
+    background-image: url('../pics/arrow_about.png');
     background-position: 596px center;
 }
 #about-main-image {
@@ -22,6 +22,7 @@
     margin: 10px 200px 10px 0;
     background-image: url('../pics/opera_3.jpg');
 }
+
 @media (max-width: 321px) {
     #about-main-image {
         margin: 0 0 10px 0;
@@ -38,9 +39,18 @@
     }
 }
 
-// @media  only screen and (min-device-pixel-ratio: 2),   
-// only screen and (min-resolution: 192dpi) {  
-//     #about-main-image {
-//         background-image: url('../pics/1_about-hd.jpg');
-//     }
-// }
+@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),  
+only screen and (   min--moz-device-pixel-ratio: 1.5),  
+only screen and (     -o-min-device-pixel-ratio: 3/2),  
+only screen and (        min-device-pixel-ratio: 1.5),  
+only screen and (min-resolution: 192dpi) {  
+    #about-main-image {
+        background-image: url('../pics/1_about-r.jpg');  
+    }  
+    .nav#banner-pic {
+        background-image: url('../pics/header_pic_about-hd.jpg');
+    }
+    .nav#arrow-about {
+        background-image: url('../pics/arrow_about-hd.png');
+    }
+}

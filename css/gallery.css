@@ -3,7 +3,7 @@
 }
 
 .nav#arrow-gallery {
-    background-image: url('../pics/arrow_gallery.gif');
+    background-image: url('../pics/arrow_gallery.png');
     background-position: 352px center;
 }
 
@@ -186,9 +186,18 @@
 
 }
 
-// @media  only screen and (min-device-pixel-ratio: 2),   
-// only screen and (min-resolution: 192dpi) {  
-//     #gallery-main-image {
-//         background-image: url('../pics/1_gallery-hd.jpg');
-//     }
-// }
+@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),  
+only screen and (   min--moz-device-pixel-ratio: 1.5),  
+only screen and (     -o-min-device-pixel-ratio: 3/2),  
+only screen and (        min-device-pixel-ratio: 1.5),  
+only screen and (min-resolution: 192dpi) {  
+    #gallery-main-image {
+        background-image: url('../pics/1_gallery-r.jpg');  
+    }  
+    .nav#banner-pic {
+        background-image: url('../pics/header_pic_gallery-hd.jpg');
+    }
+    .nav#arrow-gallery {
+        background-image: url('../pics/arrow_gallery-hd.png');
+    }
+}

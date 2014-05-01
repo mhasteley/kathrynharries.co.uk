@@ -6,6 +6,7 @@
     line-height: 0em;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
     -moz-transition: background-image 0.5s ease;
     -webkit-transition: background-image 0.5s ease;
     transition: background-image 0.5s ease;
@@ -95,6 +96,7 @@ a.nav-button {
 .arrow {
     height: 40px;
     width: 650px;
+    background-size: contain;
 }
 
 @media (max-width: 321px) {
@@ -102,14 +104,14 @@ a.nav-button {
         height: 0px;
     }
     .nav#banner-title {
-        height: 42.8;
+        height: 42px;
         width: 100%;
         background-size: cover;
         background-position: left;
     }
     .nav-wrap {
-        height: 174px;
-        margin: 0 0 -1px 0;
+        height: 172px;
+        margin: 0;
         width: 100%;
     }
     .nav#nav_music { 

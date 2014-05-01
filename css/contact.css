@@ -2,13 +2,14 @@
     background-image: url('../pics/header_pic_about.jpg');
 }
 .nav#arrow {
-    background-image: url('../pics/arrow_contact.gif');
+    background-image: url('../pics/arrow_contact.png');
     background-position: 448px center;
 }
 #contact-main-image {
     margin: 0 130px 10px 0;
     background-image: url('../pics/1_contact.jpg');
 }
+
 @media (max-width: 321px){
     #contact-main-image {
         margin: 0 0 10px 0;
@@ -16,9 +17,18 @@
     }
 }
 
-// @media  only screen and (min-device-pixel-ratio: 2),   
-// only screen and (min-resolution: 192dpi) {  
-//     #contact-main-image {
-//         background-image: url('../pics/1_contact-hd.jpg');
-//     }
-// }
+@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),  
+only screen and (   min--moz-device-pixel-ratio: 1.5),  
+only screen and (     -o-min-device-pixel-ratio: 3/2),  
+only screen and (        min-device-pixel-ratio: 1.5),  
+only screen and (min-resolution: 192dpi) {  
+    #contact-main-image {
+        background-image: url('../pics/1_contact-r.jpg');  
+    }  
+    .nav#banner-pic {
+        background-image: url('../pics/header_pic_about-hd.jpg');
+    }
+    .nav#arrow {
+        background-image: url('../pics/arrow_contact-hd.png');
+    }
+}

@@ -3,13 +3,14 @@
 }
 
 .nav#arrow-music {
-    background-image: url('../pics/arrow_music.gif');
+    background-image: url('../pics/arrow_music.png');
     background-position: 34px center;
 }
 #music-main-image {
     margin: 0 130px 10px 0;
     background-image: url('../pics/1_music.jpg');
 }
+
 @media (max-width: 321px){
     #music-main-image {
         margin: 0 0 10px 0;
@@ -20,9 +21,18 @@
     }
 }
 
-// @media  only screen and (min-device-pixel-ratio: 2),   
-// only screen and (min-resolution: 192dpi) {  
-//     #music-main-image {
-//         background-image: url('../pics/1_music-hd.jpg');
-//     }
-// }
+@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),  
+only screen and (   min--moz-device-pixel-ratio: 1.5),  
+only screen and (     -o-min-device-pixel-ratio: 3/2),  
+only screen and (        min-device-pixel-ratio: 1.5),  
+only screen and (min-resolution: 192dpi) {  
+    #music-main-image {
+        background-image: url('../pics/1_music-r.jpg');  
+    }  
+    .nav#banner-pic {
+        background-image: url('../pics/header_pic_music-hd.jpg');
+    }
+    .nav#arrow-music {
+        background-image: url('../pics/arrow_music-hd.png');
+    }
+}

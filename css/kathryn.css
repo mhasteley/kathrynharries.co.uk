@@ -32,9 +32,9 @@ a:hover {
 p {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
     font-weight: 400;
-    font-size: 0.7em;
-    line-height: 135%;
-    color: #666;
+    font-size: 0.8em;
+    line-height: 1.6em;
+    color: #333333;
 }
 h1 {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
@@ -83,6 +83,8 @@ strong {
     position: relative;
     display: block;
     float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .linked-image {
     font-size: 0em;
@@ -160,7 +162,7 @@ strong {
     .content {
         top: 0;
         width: 100%;
-        margin: 217px 0 0 0;
+        margin: 216px 0 0 0;
     }
     .main-left { 
         width: 100%;
