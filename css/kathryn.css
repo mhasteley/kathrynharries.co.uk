@@ -54,7 +54,7 @@ h2 {
 strong {
     font-family: 'Patua One', Georgia, serif;
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .sub-emph {
     font-weight: 400;
@@ -132,6 +132,7 @@ strong {
     height: 12px;
     margin: 4px 0;
     background-image: url('../pics/footer.gif');
+    background-image: repeat;
 }
 
 @media (max-width: 321px){
@@ -175,8 +176,7 @@ strong {
     }
     .footer { 
         width: 100%;
-        height: 10.1px;
-        background-size: 100%;
-        margin: 4px -10px;
+        height: 14px;
+        background-size: contain;
     }
 }
