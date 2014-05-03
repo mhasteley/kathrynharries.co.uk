@@ -1,7 +1,9 @@
-.nav#banner-pic {
+#banner-pic {
     height: 263px;
     width: 650px;
     background-image: url('../pics/index_header_pic-shows.jpg');
+    z-index: 1;
+    margin: 0;
 }
 .nav#banner-title {
     height: 107px;
@@ -11,6 +13,39 @@
 #index-nav-wrap {
     height: 399px;  
 }
+#footer-index {
+    position: absolute;
+    bottom: 10px;
+    z-index: -99;
+}
+
+.slide
+{
+    position: relative;   
+    display:none;
+    width: 650px;
+    height: 263px;
+    z-index: 999;
+}
+div#slide1 {
+    background-image:url('../pics/index_header_pic-shows.jpg');
+}
+div#slide2 {
+    background-image:url('../pics/index_header_pic-about.jpg');
+}
+div#slide3 {
+    background-image:url('../pics/index_header_pic-gallery.jpg');
+}
+div#slide4 {
+    background-image:url('../pics/index_header_pic-contact.jpg');
+}
+div#slide5 {
+    background-image:url('../pics/index_header_pic-music.jpg');
+}
+div#slide6 {
+    background-image:url('../pics/index_header_pic-walk.jpg');
+}
+
 @media (max-width: 321px) {
     .nav#banner-pic {
         height: 30%;
