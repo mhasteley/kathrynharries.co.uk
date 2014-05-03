@@ -48,15 +48,17 @@ div#slide6 {
 
 @media (max-width: 321px) {
     .nav#banner-pic, .nav.slide {
-        height: 30%;
-        min-height: 200px;
+        height: 100%;
         width: 100%;
         background-size: cover;
         background-position: top center;
         margin: 0;
     }
     .nav#banner-pic {
-        
+        height: 30%;
+    }
+    #slideshow {
+        height: 30%;
     }
     .nav#banner-title {
         height: 10%;
