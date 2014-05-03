@@ -47,13 +47,16 @@ div#slide6 {
 }
 
 @media (max-width: 321px) {
-    .nav#banner-pic {
+    .nav#banner-pic, .nav.slide {
         height: 30%;
-        min-height: 100px;
+        min-height: 200px;
         width: 100%;
         background-size: cover;
         background-position: top center;
         margin: 0;
+    }
+    .nav#banner-pic {
+        
     }
     .nav#banner-title {
         height: 10%;
@@ -74,8 +77,6 @@ only screen and (     -o-min-device-pixel-ratio: 3/2),
 only screen and (        min-device-pixel-ratio: 1.5),  
 only screen and (min-resolution: 192dpi) {  
     .nav#banner-pic {
-        height: 263px;
-        width: 650px;
         background-image: url('../pics/index_header_pic-shows-hd.jpg');
     }
 }
