@@ -81,4 +81,22 @@ only screen and (min-resolution: 192dpi) {
     .nav#banner-pic {
         background-image: url('../pics/index_header_pic-shows-hd.jpg');
     }
+    div#slide1 {
+        background-image:url('../pics/index_header_pic-shows-hd.jpg');
+    }
+    div#slide2 {
+        background-image:url('../pics/index_header_pic-about-hd.jpg');
+    }
+    div#slide3 {
+        background-image:url('../pics/index_header_pic-gallery-hd.jpg');
+    }
+    div#slide4 {
+        background-image:url('../pics/index_header_pic-contact-hd.jpg');
+    }
+    div#slide5 {
+        background-image:url('../pics/index_header_pic-music-hd.jpg');
+    }
+    div#slide6 {
+        background-image:url('../pics/index_header_pic-walk-hd.jpg');
+    }
 }
