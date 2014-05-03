@@ -42,56 +42,56 @@ a.nav-button {
 .nav#nav_music {
     height: 29px;
     width: 88px;
-    background-image: url('../pics/entry_music.gif');
+    background-image: url('../pics/nav_music.gif');
     background-color: #f99d33;
 }
 .nav:hover#nav_music {
-    background-image: url('../pics/entry_music_on.gif');
+    background-image: url('../pics/nav_music_on.gif');
 }
 .nav#nav_shows {
     height: 29px;
     width: 87px;
-    background-image: url('../pics/entry_shows.gif');
+    background-image: url('../pics/nav_shows.gif');
     background-color: #faa74a;
 }
 .nav:hover#nav_shows {
-    background-image: url('../pics/entry_shows_on.gif');
+    background-image: url('../pics/nav_shows_on.gif');
 }
 .nav#nav_walks {
     height: 29px;
     width: 143px;
-    background-image: url('../pics/entry_walk.gif');
+    background-image: url('../pics/nav_walk.gif');
     background-color: #fbb161;
 }
 .nav:hover#nav_walks {
-    background-image: url('../pics/entry_walk_on.gif');
+    background-image: url('../pics/nav_walk_on.gif');
 }
 .nav#nav_gallery {
     height: 29px;
     width: 89px;
-    background-image: url('../pics/entry_gallery.gif');
+    background-image: url('../pics/nav_gallery.gif');
     background-color: #fcbb75;
 }
 .nav:hover#nav_gallery {
-    background-image: url('../pics/entry_gallery_on.gif');
+    background-image: url('../pics/nav_gallery_on.gif');
 }
 .nav#nav_contact {
     height: 29px;
     width: 96px;
-    background-image: url('../pics/entry_contact.gif');
+    background-image: url('../pics/nav_contact.gif');
     background-color: #fdc589;
 }
 .nav:hover#nav_contact {
-    background-image: url('../pics/entry_contact_on.gif');
+    background-image: url('../pics/nav_contact_on.gif');
 }
 .nav#nav_about {
     height: 29px;
     width: 147px;
-    background-image: url('../pics/entry_about.gif');
+    background-image: url('../pics/nav_about.gif');
     background-color: #fed09e;
 }
 .nav:hover#nav_about {
-    background-image: url('../pics/entry_about_on.gif');
+    background-image: url('../pics/nav_about_on.gif');
 }
 .arrow {
     height: 40px;

@@ -1,12 +1,12 @@
 .nav#banner-pic {
     height: 263px;
     width: 650px;
-    background-image: url('../pics/entry_header_pic.jpg');
+    background-image: url('../pics/index_header_pic-shows.jpg');
 }
 .nav#banner-title {
     height: 107px;
     width: 650px;
-    background-image: url('../pics/entry_header.gif');
+    background-image: url('../pics/header_index.gif');
 }
 #index-nav-wrap {
     height: 399px;  
@@ -31,4 +31,16 @@
         height: 356.2px;  
     }
 
+}
+
+@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),  
+only screen and (   min--moz-device-pixel-ratio: 1.5),  
+only screen and (     -o-min-device-pixel-ratio: 3/2),  
+only screen and (        min-device-pixel-ratio: 1.5),  
+only screen and (min-resolution: 192dpi) {  
+    .nav#banner-pic {
+        height: 263px;
+        width: 650px;
+        background-image: url('../pics/index_header_pic-shows-hd.jpg');
+    }
 }
