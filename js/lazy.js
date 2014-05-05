@@ -1,3 +1,5 @@
+document.getElementById("gallery-warn").innerHTML="";
+
 var buttons = document.getElementsByTagName("button");
 for (i = 0; i < buttons.length; i++) {
     buttons[i].onclick = function galleryLoad() {

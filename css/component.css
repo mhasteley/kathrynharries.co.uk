@@ -15,7 +15,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 button.md-close {	
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 0;
     margin: 0;
