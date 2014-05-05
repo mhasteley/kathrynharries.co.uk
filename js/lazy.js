@@ -13,7 +13,7 @@
  
  */
 
-
+// AJ's lazyload $('div.gallery').each(function(index, value) { $(this).attr('src', $(this).data('src')).removeClass('lazyload'); });
 
 $(document).ready(
         function() {
