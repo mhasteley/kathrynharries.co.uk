@@ -1,4 +1,4 @@
-document.getElementById("gallery-warn").innerHTML = "";
+document.getElementById("gallery-warn").innerHTML = "[Click on the thumbnail to view the full-size image]";
 
 $(function() {
     var buttons = $('.square');
