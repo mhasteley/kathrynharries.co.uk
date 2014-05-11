@@ -2,7 +2,7 @@ document.getElementById("gallery-warn").innerHTML = "";
 
 $(function() {
     var buttons = $('.square');
-    // Replaces this, as the close button was running the lazyload script too:
+    // Replaces below, as the close button was running the lazyload script too:
     // var buttons = document.getElementsByTagName("button");
     for (i = 0; i < buttons.length; i++) {
         buttons[i].onclick = function galleryLoad() {
@@ -21,17 +21,3 @@ $(function() {
     }
     ;
 });
-
-/* Attempting the same thing in JQuery...
- $('button').click(function as() {
- $(this).attr('id', function asd(bIndex, bValue) {
- var galleryId = '"#g' + bValue + '"';
- $(galleryId).each(function(gIndex, gValue) {
- var writeGallery = 'url("pics/gallery/' + galleryId + '.jpg")';
- $(this).css('backgroundImage', writeGallery);
- });
- });
- });
- */
-
-// AJ's lazyload $('div.gallery').each(function(index, value) { $(this).attr('src', $(this).data('src')).removeClass('lazyload'); });
