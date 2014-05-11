@@ -34,9 +34,10 @@ button.md-close {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 60%;
     min-width: 320px;
     height: auto;
+    padding: 0 40px 0 40px;
+    margin: 0 auto;
     z-index: 2000;
     visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -77,7 +78,6 @@ button.md-close {
 .md-content {
     color: #ffffff;
     position: relative;
-    margin: 0 auto;
 }
 
 .md-content button {
@@ -103,4 +103,10 @@ button.md-close {
     -ms-transform: scale(1);
     transform: scale(1);
     opacity: 1;
+}
+
+@media (max-width: 321px) {
+    .md-modal {
+        padding: 0 20px 0 20px;
+    }
 }

@@ -12,17 +12,6 @@
     background-image: url('../pics/1_gallery.jpg');
 }
 
-.landscape {
-    max-width: 2000px;
-}
-
-.portrait {
-    max-width: 700px;
-}
-
-.square {
-}
-
 .gallery {
     display: inline;
     background-size: 100%;
@@ -62,17 +51,18 @@
     clear: both;
 }
 
-.gallery-pop {
-    min-height: 1000px;
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('../pics/lazy-load.gif');
+.gallImg {
+    display: block;
+    margin: auto;
+    height: 25px;
+    width: 25px;
+    padding: 15px 0;
 }
 
 a.gallHD {
     position: absolute;
-    bottom: 10px;
+    display: block;
+    margin: -10px 0 0 0;
     font-size: 0.6em;
     text-transform: uppercase;
 }
