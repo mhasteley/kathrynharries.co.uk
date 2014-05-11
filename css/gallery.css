@@ -64,11 +64,17 @@
 
 .gallery-pop {
     min-height: 1000px;
-    margin: 10px auto;
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url('../pics/lazy-load.gif');
+}
+
+a.gallHD {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.6em;
+    text-transform: uppercase;
 }
 
 #a1 {

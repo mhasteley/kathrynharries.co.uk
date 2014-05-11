@@ -8,7 +8,8 @@ $(function() {
         buttons[i].onclick = function galleryLoad() {
             var galleryId = 'g' + this.id;
             var gallery = galleryId.substr(2);
-            var imgSource = 'http://kathrynharries.co.uk/pics/gallery/' + gallery + '.jpg';
+            var imgSource = 'pics/gallery/' + gallery + '.jpg';
+            var imgHDSource = 'pics/gallery/hd/' + gallery + '.jpg';
             var writeGallery = 'url("pics/gallery/' + gallery + '.jpg")';
             var img = new Array();
             img[gallery] = new Image();
@@ -16,6 +17,7 @@ $(function() {
             img[gallery].onload = function replaceBack() {
                 document.getElementById(galleryId).style.backgroundImage = writeGallery;
                 document.getElementById(galleryId).style.backgroundSize = "100%";
+                $('.gallHD').attr('href', imgHDSource);
             };
         };
     }
