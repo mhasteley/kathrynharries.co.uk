@@ -16,6 +16,8 @@ $(function() {
                 myImg.src = writeGallery;
                 myImg.style.width = "100%";
                 myImg.style.height = "auto";
+                myImg.style.margin = "inherit";
+                myImg.style.padding = "15px 0";
                 $('.gallHD').attr('href', writeGalleryHD);
             };
         };
