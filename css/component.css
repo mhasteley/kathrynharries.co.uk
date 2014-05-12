@@ -18,7 +18,7 @@ button.md-close {
     position: absolute;
     top: 50%;
     left: 0;
-    margin: 0;
+    margin: 0 0 0 10%;
     padding: 4px 8px 6px 8px;
     background: #faa74a;
     color: #ffffff;
@@ -32,21 +32,24 @@ button.md-close {
 
 .md-modal {
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 0;
+    left: -100%;
+    //    left: 50%;
+    width: 100%;
     min-width: 320px;
-    height: auto;
-    padding: 0 40px 0 40px;
+    //    height: auto;
+    height: 100%;
+    //    padding: 0 40px 0 40px;
     margin: 0 auto;
     z-index: 2000;
     visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    //    -webkit-backface-visibility: hidden;
+    //    -moz-backface-visibility: hidden;
+    //    backface-visibility: hidden;
+    //    -webkit-transform: translateX(-50%) translateY(-50%);
+    //    -moz-transform: translateX(-50%) translateY(-50%);
+    //    -ms-transform: translateX(-50%) translateY(-50%);
+    //    transform: translateX(-50%) translateY(-50%);
 }
 
 .md-show {
@@ -78,6 +81,9 @@ button.md-close {
 .md-content {
     color: #ffffff;
     position: relative;
+    left: 100%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .md-content button {
