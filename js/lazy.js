@@ -17,10 +17,20 @@ $(function() {
                 myImg.style.width = "100%";
                 myImg.style.height = "auto";
                 myImg.style.margin = "inherit";
-                myImg.style.padding = "15px 0";
+                myImg.style.padding = "0 0 15px 0";
                 $('.gallHD').attr('href', writeGalleryHD);
             };
         };
     }
     ;
 });
+
+function gallMaxWidth() {
+    var w = window.innerWidth;
+    if (w > 1360) {
+        $('.gallImg').css('width', 'auto');
+    }
+    else {
+        $('.gallImg').css('width', '100%');
+    };
+};
