@@ -14,23 +14,12 @@ $(function() {
             img[gallery].onload = function replaceImg() {
                 var myImg = document.getElementById(galleryId);
                 myImg.src = writeGallery;
-                myImg.style.width = "80%";
+                myImg.style.width = "100%";
                 myImg.style.height = "auto";
-                myImg.style.margin = "inherit";
-                myImg.style.padding = "0 0 15px 0";
+                myImg.style.marginBottom = "15px";
                 $('.gallHD').attr('href', writeGalleryHD);
             };
         };
     }
     ;
 });
-
-function gallMaxWidth() {
-    var w = window.innerWidth;
-    if (w > 1360) {
-        $('.gallImg').css('width', 'auto');
-    }
-    else {
-        $('.gallImg').css('width', '100%');
-    };
-};

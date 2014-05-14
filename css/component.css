@@ -18,7 +18,6 @@ button.md-close {
     position: absolute;
     top: 50%;
     left: 0;
-    margin: 0 0 0 10%;
     padding: 4px 8px 6px 8px;
     background: #faa74a;
     color: #ffffff;
@@ -31,7 +30,7 @@ button.md-close {
 }
 
 .md-modal {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: -100%;
     //    left: 50%;
@@ -40,7 +39,7 @@ button.md-close {
     //    height: auto;
     height: 100%;
     //    padding: 0 40px 0 40px;
-    margin: 0 auto;
+    margin: 5% auto;
     z-index: 2000;
     visibility: hidden;
     //    -webkit-backface-visibility: hidden;
@@ -84,6 +83,8 @@ button.md-close {
     left: 100%;
     width: 80%;
     margin: 0 auto;
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.4)
 }
 
 .md-content button {
@@ -113,6 +114,10 @@ button.md-close {
 
 @media (max-width: 321px) {
     .md-modal {
-        padding: 0 20px 0 20px;
+        left: 0;
+        margin: 10% 0;
+    }
+    .md-content {
+        left: 0;
     }
 }
