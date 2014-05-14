@@ -16,10 +16,12 @@ $(function() {
                 myImg.src = writeGallery;
                 myImg.style.width = "100%";
                 myImg.style.height = "auto";
-                myImg.style.marginBottom = "15px";
+                myImg.style.margin = "0 0 15px 0";
                 $('.gallHD').attr('href', writeGalleryHD);
             };
         };
     }
     ;
 });
+
+// md-content - remove background while lazy-loading / space HD link
