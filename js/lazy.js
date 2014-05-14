@@ -16,10 +16,21 @@ $(function() {
                 myImg.src = writeGallery;
                 myImg.style.width = "80%";
                 myImg.style.height = "auto";
-                myImg.style.padding = "15px 0";
+                myImg.style.margin = "inherit";
+                myImg.style.padding = "0 0 15px 0";
                 $('.gallHD').attr('href', writeGalleryHD);
             };
         };
     }
     ;
 });
+
+function gallMaxWidth() {
+    var w = window.innerWidth;
+    if (w > 1360) {
+        $('.gallImg').css('width', 'auto');
+    }
+    else {
+        $('.gallImg').css('width', '100%');
+    };
+};
