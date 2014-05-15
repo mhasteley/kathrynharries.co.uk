@@ -16,12 +16,14 @@ $(function() {
                 myImg.src = writeGallery;
                 myImg.style.width = "100%";
                 myImg.style.height = "auto";
-                myImg.style.margin = "0 0 15px 0";
+                myImg.style.margin = "0 auto 15px auto";
                 $('.gallHD').attr('href', writeGalleryHD);
+                $('.md-content').css('opacity', '1');
+                $('.md-content').css('background-color', 'rgba(0, 0, 0, 0.4)');
             };
         };
     }
     ;
 });
 
-// md-content - remove background while lazy-loading / space HD link
+// md-content - remove background while lazy-loading / space HD link - probably need to toggle this...

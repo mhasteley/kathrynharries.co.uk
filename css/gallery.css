@@ -53,18 +53,10 @@
 
 .gallImg {
     display: block;
-    margin: inherit;
+    margin: 25px auto;
     padding: inherit;
     height: 25px;
     width: 25px;
-}
-
-.port {
-    max-width: 768px;
-}
-
-.land {
-    max-height: 1024px;
 }
 
 a.gallHD {
@@ -74,10 +66,132 @@ a.gallHD {
     text-transform: uppercase;
 }
 
-#ga2 {
-    max-height: 681px;
-    max-width: 1024px;
+#ga1 {
+    max-width: 680px;
+    max-height: 1024px;
 }
+#ga2 {
+    max-width: 1024px;
+    max-height: 681px;
+}
+#ga3 {
+    max-width: 1024px;
+    max-height: 690px;
+}
+#ga4 {
+    max-width: 655px;
+    max-height: 1024px;
+}
+#ga5 {
+    max-width: 679px;
+    max-height: 1024px;
+}
+#ga6 {
+    max-width: 812px;
+    max-height: 1024px;
+}
+#ga7 {
+    max-width: 683px;
+    max-height: 1024px;
+}
+#ga8 {
+    max-width: 1024px;
+    max-height: 708px;
+}
+#gacry29 {
+    max-width: 1223px;
+    max-height: 768px;
+}
+#gacry30 {
+    max-width: 1053px;
+    max-height: 768px;
+}
+#gacry31 {
+    max-width: 1146px;
+    max-height: 768px;
+}
+#ga9 {
+    max-width: 1024px;
+    max-height: 396px;
+}
+#ga10 {
+    max-width: 1024px;
+    max-height: 400px;
+}
+#ga11 {
+    max-width: 1024px;
+    max-height: 407px;
+}
+#ga12 {
+    max-width: 1024px;
+    max-height: 400px;
+}
+#ga13 {
+    max-width: 1024px;
+    max-height: 589px;
+}
+#ga14 {
+    max-width: 1024px;
+    max-height:397px;
+}
+#ga15 {
+    max-width: 1024px;
+    max-height: 557px;
+}
+#ga16 {
+    max-width: 1024px;
+    max-height: 406px;
+}
+#ga17 {
+    max-width: 1024px;
+    max-height: 469px;
+}
+#ga18 {
+    max-width: 1024px;
+    max-height: 585px;
+}
+#ga19 {
+    max-width: 650px;
+    max-height: 1024px;
+}
+#ga20 {
+    max-width: 1024px;
+    max-height: 567px;
+}
+#ga21 {
+    max-width: 570px;
+    max-height: 1024px;
+}
+#ga22 {
+    max-width: 562px;
+    max-height: 1024px;
+}
+#ga23 {
+    max-width: 1024px;
+    max-height: 406px;
+}
+#ga24 {
+    max-width: 376px;
+    max-height: 1024px;
+}
+#ga25 {
+    max-width: 1024px;
+    max-height: 406px;
+}
+#ga26 {
+    max-width: 1024px;
+    max-height: 397px;
+}
+#ga27 {
+    max-width: 1024px;
+    max-height: 398px;
+}
+#ga28 {
+    max-width: 1024px;
+    max-height: 401px;
+}
+
+
 
 #a1 {
     background-image: url('../pics/gallery/t1.jpg');

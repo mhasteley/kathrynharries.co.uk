@@ -83,8 +83,9 @@ button.md-close {
     left: 100%;
     width: 80%;
     margin: 0 auto;
+    opacity: 0;
     background-color: #000000;
-    background-color: rgba(0, 0, 0, 0.4)
+    background-color: rgba(0, 0, 0, 0)
 }
 
 .md-content button {
