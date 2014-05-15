@@ -19,6 +19,7 @@ $(function() {
                 myImg.style.margin = "0 auto 15px auto";
                 $('.gallHD').attr('href', writeGalleryHD);
                 $('.md-content').css('background-color', 'rgba(0, 0, 0, 0.4)');
+                window.scrollTo(0, 0);
             };
         };
     }
