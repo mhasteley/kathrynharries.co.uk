@@ -11,7 +11,7 @@
     background-image: url('../pics/1_music.jpg');
 }
 
-@media (max-width: 321px){
+@media (max-width: 569px){
     #music-main-image {
         margin: 0 0 10px 0;
         background-image: url('../pics/1_music-hd.jpg');

@@ -59,7 +59,7 @@ a.gallHD {
 
 #gallery-main-image {
     margin: 0 130px 10px 0;
-    background-image: url('../pics/1_gallery.jpg');
+    background-image: url('../pics/1_gallery-hd.jpg');
 }
 
 .gallery {
@@ -188,8 +188,8 @@ a.gallHD {
     width: 100%;
     height: 100%;
     visibility: hidden;
-    background: #ffffff;
-    background: rgba(255,255,255,0.8);
+    background: #000000;
+    background: rgba(0,0,0,0.9);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -300,11 +300,28 @@ a.gallHD {
     background-image: url('../pics/gallery/t28.jpg');
 }
 
-@media screen and (max-width: 321px){
+@media screen and (max-width: 569px) {
     .gallery-wrapper {
         width: 100%;
     }
     .gallery.grid {
-            margin: 0 10px 10px 0;
+        margin: 0 10px 10px 0;
+    }
+    #gallery-main-image {
+        margin: 0 0 10px 0;
+        background-image: url('../pics/1_gallery-hd.jpg');
+    }
+}
+
+@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),  
+only screen and (   min--moz-device-pixel-ratio: 1.5),  
+only screen and (     -o-min-device-pixel-ratio: 3/2),  
+only screen and (        min-device-pixel-ratio: 1.5),  
+only screen and (min-resolution: 192dpi) {  
+    .nav#banner-pic {
+        background-image: url('../pics/header_pic_gallery-hd.jpg');
+    }
+    .nav#arrow-gallery {
+        background-image: url('../pics/arrow_gallery-hd.png');
     }
 }

@@ -138,19 +138,19 @@ strong {
 
 
 
-@media screen and (max-width: 321px){
+@media screen and (max-width: 569px){
     audio {
-        width: 320px;
+        width: 100%;
     }
 
     h1 {
         margin-top: 1em;
     }
     .main-image {
-        height: 320px;
-        width: 320px;
+        height: 250px;
+        width: 100%;
         background-size: cover;
-        background-position: top left;
+        background-position: center left;
     }
     .sub-image {
         height: 0px;
@@ -170,7 +170,7 @@ strong {
         margin: 216px 0 0 0;
     }
     .main-left { 
-        width: auto;
+        width: 100%;
         margin: 0;
     }
     .main-right {

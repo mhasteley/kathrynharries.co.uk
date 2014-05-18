@@ -10,7 +10,7 @@
     background-image: url('../pics/1_shows.jpg');
 }
 
-@media (max-width: 321px){
+@media (max-width: 569px){
     #shows-main-image {
         margin: 0 0 10px 0;
         background-image: url('../pics/1_shows-hd.jpg');

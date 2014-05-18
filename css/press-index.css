@@ -22,7 +22,7 @@
     background-image: url('../pics/press/t_T4Z4789.jpg');
 }
 
-@media (max-width: 321px){
+@media (max-width: 569px){
     #press-index-main-image {
         margin: 0 0 10px 0;
         background-image: url('../pics/1_gallery-hd.jpg');
