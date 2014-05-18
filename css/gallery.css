@@ -1,3 +1,53 @@
+html, body
+{
+    height: 100%; /* root and body MUST be height 100% */
+}
+
+button {
+    border: 0;
+    padding: 0;
+    background: #ffffff;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    border-radius: 0;
+    outline: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+button.modal-close {	
+    position: absolute;
+    left: 0;
+    background: #faa74a;
+    color: #ffffff;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+button.modal-close.off {
+    top: 0;
+    padding: 2px 7px 5px 7px;
+}
+
+button.modal-close.on {
+    top: 50%;
+    padding: 4px 8px 6px 9px;
+}
+
+a.gallHD {
+    position: absolute;
+    bottom: -20px;
+    display: block;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    visibility: hidden;
+}
+
 .nav#banner-pic {
     background-image: url('../pics/header_pic_gallery.jpg');
 }
@@ -53,145 +103,112 @@
 
 .gallImg {
     display: block;
-    margin: 25px auto;
+    margin: 20px auto;
     padding: inherit;
-    height: 25px;
+    max-width: 90vh;
+    max-height: 90vh;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    transition: all 0s;
+}
+
+.gallImg.off {
     width: 25px;
+    height: 25px;
+    visibility: visible;
 }
 
-a.gallHD {
-    position: absolute;
-    display: block;
-    font-size: 0.6em;
-    text-transform: uppercase;
+.gallImg.on {
+    width: 100%;
+    height: auto;
+    visibility: hidden;
 }
 
-#ga1 {
-    max-width: 680px;
-    max-height: 1024px;
-}
-#ga2 {
-    max-width: 1024px;
-    max-height: 681px;
-}
-#ga3 {
-    max-width: 1024px;
-    max-height: 690px;
-}
-#ga4 {
-    max-width: 655px;
-    max-height: 1024px;
-}
-#ga5 {
-    max-width: 679px;
-    max-height: 1024px;
-}
-#ga6 {
-    max-width: 812px;
-    max-height: 1024px;
-}
-#ga7 {
-    max-width: 683px;
-    max-height: 1024px;
-}
-#ga8 {
-    max-width: 1024px;
-    max-height: 708px;
-}
-#gacry29 {
-    max-width: 1223px;
-    max-height: 768px;
-}
-#gacry30 {
-    max-width: 1053px;
-    max-height: 768px;
-}
-#gacry31 {
-    max-width: 1146px;
-    max-height: 768px;
-}
-#ga9 {
-    max-width: 1024px;
-    max-height: 396px;
-}
-#ga10 {
-    max-width: 1024px;
-    max-height: 400px;
-}
-#ga11 {
-    max-width: 1024px;
-    max-height: 407px;
-}
-#ga12 {
-    max-width: 1024px;
-    max-height: 400px;
-}
-#ga13 {
-    max-width: 1024px;
-    max-height: 589px;
-}
-#ga14 {
-    max-width: 1024px;
-    max-height:397px;
-}
-#ga15 {
-    max-width: 1024px;
-    max-height: 557px;
-}
-#ga16 {
-    max-width: 1024px;
-    max-height: 406px;
-}
-#ga17 {
-    max-width: 1024px;
-    max-height: 469px;
-}
-#ga18 {
-    max-width: 1024px;
-    max-height: 585px;
-}
-#ga19 {
-    max-width: 650px;
-    max-height: 1024px;
-}
-#ga20 {
-    max-width: 1024px;
-    max-height: 567px;
-}
-#ga21 {
-    max-width: 570px;
-    max-height: 1024px;
-}
-#ga22 {
-    max-width: 562px;
-    max-height: 1024px;
-}
-#ga23 {
-    max-width: 1024px;
-    max-height: 406px;
-}
-#ga24 {
-    max-width: 376px;
-    max-height: 1024px;
-}
-#ga25 {
-    max-width: 1024px;
-    max-height: 406px;
-}
-#ga26 {
-    max-width: 1024px;
-    max-height: 397px;
-}
-#ga27 {
-    max-width: 1024px;
-    max-height: 398px;
-}
-#ga28 {
-    max-width: 1024px;
-    max-height: 401px;
+#modal {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    border-spacing: 0;
+    z-index: 3000;
 }
 
+#modal-tbody, #modal-tr, #modal-td {
+    height: 100%; /* All table elements should be height 100% */
+}
 
+#modal-td {
+    vertical-align: middle;
+}
+
+#modal-content {
+    position: relative;
+    left: 100%;
+    height: auto; /* HEIGHT optional, any unit */
+    width: 90%; /* WIDTH optional, any unit */    
+    //    max-height: 80%; /* MAX-HEIGHT optional, if height auto, must be % */
+    //    min-height: 80vh; /* MIN-HEIGHT optional, any unit */
+    //    max-width: 80%; /* MAX-WIDTH optional, any unit */
+    //    min-width: 320px; /* MIN-WIDTH optional, any unit */
+    margin: 0 auto;
+    border: 0;
+    background-color: #333333;
+    background-color: rgba(55,55,55,0.8);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: visible;
+    -webkit-transition-property: scale, opacity;
+    -moz-transition-property: scale, opacity;
+    transition-property: scale, opacity;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background-image: url('#');
+}
+
+#modal-content.off {
+    opacity: 0;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+#modal-content.on {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+#modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background: #ffffff;
+    background: rgba(255,255,255,0.8);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#modal-overlay.off {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#modal-overlay.on {
+    z-index: 1000;
+    opacity: 1;
+    visibility: visible;
+}
 
 #a1 {
     background-image: url('../pics/gallery/t1.jpg');
@@ -285,38 +302,4 @@ a.gallHD {
 }
 #a28 {
     background-image: url('../pics/gallery/t28.jpg');
-}
-
-@media (max-width: 321px) {
-    #gallery-main-image {
-        margin: 0 0 10px 0;
-        background-image: url('../pics/1_gallery-hd.jpg');
-    }
-    .gallery-wrapper {
-        width: 320px;
-    }
-    .gallery.grid {
-        width: 69px;
-        height: 69px;
-        margin-bottom: 8px;
-    }
-    .gallery.grid.mid {
-        margin-right: 8px;
-    }
-}
-
-@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),  
-only screen and (   min--moz-device-pixel-ratio: 1.5),  
-only screen and (     -o-min-device-pixel-ratio: 3/2),  
-only screen and (        min-device-pixel-ratio: 1.5),  
-only screen and (min-resolution: 192dpi) {  
-    #gallery-main-image {
-        background-image: url('../pics/1_gallery-r.jpg');  
-    }  
-    .nav#banner-pic {
-        background-image: url('../pics/header_pic_gallery-hd.jpg');
-    }
-    .nav#arrow-gallery {
-        background-image: url('../pics/arrow_gallery-hd.png');
-    }
 }
