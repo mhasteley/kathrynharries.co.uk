@@ -101,7 +101,7 @@ a.gallHD {
     display: block;
     margin: 20px auto;
     padding: inherit;
-    max-width: 90vh;
+    max-width: 90vw;
     max-height: 90vh;
     -webkit-transition: all 0s;
     -moz-transition: all 0s;
