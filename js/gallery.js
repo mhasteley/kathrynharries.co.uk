@@ -12,7 +12,7 @@ var myHD = $('.gallHD');
 var myClose = $('.modal-close');
 
 $(function() {
-    var buttons = $('.square');
+    var buttons = $('.grid');
     for (i = 0; i < buttons.length; i++) {
         buttons[i].onclick = function galleryLoad() {
             var galleryId = this.id;
