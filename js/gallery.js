@@ -1,4 +1,8 @@
-document.getElementById("gallery-warn").innerHTML = "[Click on the thumbnail to view the full-size image]";
+$(document).ready(
+        function warn() {
+            document.getElementById("gallery-warn").innerHTML = "[Click on the thumbnail to view the full-size image]";
+        }
+);
 
 var myImg = $('.gallImg');
 var myModal = document.getElementById('modal-content');
@@ -24,7 +28,8 @@ $(function() {
             myModal.style.visibility = "visible";
             img[gallery] = new Image();
             img[gallery].src = imgSource;
-            img[gallery].onload = function replaceImg() {
+            img[gallery].onload = function replaceImg()
+            {
                 myModal.style.backgroundImage = writeGallery;
                 myImg.removeClass('off');
                 myImg.addClass('on');
@@ -36,18 +41,34 @@ $(function() {
         };
     }
     ;
-});
+}
+);
 
-$('button.modal-close').click(function() {
-    myImg.addClass('off');
-    myImg.removeClass('on');
-    myModal.style.backgroundImage = 'url("pics/trans.png")';
-    myModal.style.visibility = "hidden";
-    myContent.removeClass('on');
-    myContent.addClass('off');
-    myOverlay.removeClass('on');
-    myOverlay.addClass('off');
-    myHD.css('visibility', 'hidden');
-    myClose.removeClass('on');
-    myClose.addClass('off');
-});
+$('button.modal-close').click(
+        function() {
+            myImg.addClass('off');
+            myImg.removeClass('on');
+            myModal.style.backgroundImage = 'url("pics/trans.png")';
+            myModal.style.visibility = "hidden";
+            myContent.removeClass('on');
+            myContent.addClass('off');
+            myOverlay.removeClass('on');
+            myOverlay.addClass('off');
+            myHD.css('visibility', 'hidden');
+            myClose.removeClass('on');
+            myClose.addClass('off');
+        });
+
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    myHD.css('margin', '0 0 30px 10px');
+    if (window.orientation !== 0) {
+        $(window).resize(function() {
+            var x = window.screen.availWidth;
+            var y = window.screen.availHeight;
+            var z = 'width=' + x + ', height=' + y + ', initial-scale=1.0, maximum-scale=2.0';
+            $("#viewport").attr("content", z);
+        });
+    }
+}
+;
