@@ -56,9 +56,11 @@ div#slide6 {
     }
     .nav#banner-pic {
         height: 30%;
+        min-height: 250px;
     }
     #slideshow {
         height: 30%;
+        min-height: 250px;
     }
     .nav#banner-title {
         height: 10%;
