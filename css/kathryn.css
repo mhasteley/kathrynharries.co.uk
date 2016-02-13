@@ -150,7 +150,7 @@ strong {
         height: 250px;
         width: 100%;
         background-size: cover;
-        background-position: center left;
+        background-position: center 40%;
     }
     .sub-image {
         height: 0px;
