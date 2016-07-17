@@ -1,9 +1,9 @@
-.nav#banner-pic {
+.title#banner-pic {
     background-image: url('../pics/header_pic_shows.jpg');
 }
 .nav#arrow-shows {
-    background-image: url('../pics/arrow_shows.png');
-    background-position: 121px center;
+    left:20%;
+    border-top: 40px solid #f99d33;
 }
 #shows-main-image {
     margin: 0 130px 10px 0;
@@ -27,8 +27,5 @@ only screen and (min-resolution: 192dpi) {
     }  
     .nav#banner-pic {
         background-image: url('../pics/header_pic_shows-hd.jpg');
-    }
-    .nav#arrow-shows {
-        background-image: url('../pics/arrow_shows-hd.png');
     }
 }

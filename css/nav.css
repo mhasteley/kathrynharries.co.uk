@@ -4,146 +4,120 @@ ul, li {
     margin: 0px;
 }
 
-.nav {
-    position: relative;
-    display: block;
-    float: left;
+.title {
     font-size: 0em;
-    line-height: 0em;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -moz-transition: background-image 0.5s ease;
-    -webkit-transition: background-image 0.5s ease;
-    transition: background-image 0.5s ease;
-    -moz-transition: width 0.1s ease;
-    -webkit-transition: width 0.1s ease;
-    transition: width 0.1s ease;
 }
-.nav:hover {
-    -moz-transition: background-image 0.5s ease;
-    -webkit-transition: background-image 0.5s ease;
-    transition: background-image 0.5s ease;
-}
-a.nav-button {
+
+.title a.button {
     width: 100%;
     height: 100%;
     display: block;
 }
-.nav.banner-pic {
+
+.title#banner-pic {
     height: 127px;
     width: 650px;
 }
-.nav#banner-title {
+
+.title#banner {
     height: 87px;
     width: 650px;
     background-image: url('../pics/header.gif');
+    background-size: 100%;
 }
-.nav-wrap {
+
+.menu-wrapper {
     display: block;
-    height: 29px;
     width: 650px;
-    float: left;
+    margin: 0em;
 }
-.nav#nav_music {
-    height: 29px;
-    width: 88px;
-    background-image: url('../pics/nav_music.gif');
+
+.menu {
+    width: 20%;
+    padding: 5px;
+    margin: 0 -4px 0 0;
+    position: relative;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    text-align: center;
     background-color: #f99d33;
 }
-.nav:hover#nav_music {
-    background-image: url('../pics/nav_music_on.gif');
+
+li a {
+    display: block;
+    color: #ffffff;
+    -moz-transition: text-shadow 0.5s cubic-bezier(0.41, 0.06, 0.24, 1.01), color 0.5s cubic-bezier(0.41, 0.06, 0.24, 1.01);
+    -webkit-transition: text-shadow 0.5s cubic-bezier(0.41, 0.06, 0.24, 1.01), color 0.5s cubic-bezier(0.41, 0.06, 0.24, 1.01);
+    transition: text-shadow 0.5s cubic-bezier(0.41, 0.06, 0.24, 1.01), color 0.5s cubic-bezier(0.41, 0.06, 0.24, 1.01);
 }
-.nav#nav_shows {
-    height: 29px;
-    width: 87px;
-    background-image: url('../pics/nav_shows.gif');
+
+li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #ffffff;
+}
+
+.menu#music {
+    background-color: #f99d33;
+}
+
+.menu#shows {
     background-color: #faa74a;
 }
-.nav:hover#nav_shows {
-    background-image: url('../pics/nav_shows_on.gif');
-}
-.nav#nav_walks {
-    height: 29px;
-    width: 143px;
-    background-image: url('../pics/nav_walk.gif');
+
+.menu#walks {
     background-color: #fbb161;
 }
-.nav:hover#nav_walks {
-    background-image: url('../pics/nav_walk_on.gif');
-}
-.nav#nav_gallery {
-    height: 29px;
-    width: 89px;
-    background-image: url('../pics/nav_gallery.gif');
+
+.menu#gallery {
     background-color: #fcbb75;
 }
-.nav:hover#nav_gallery {
-    background-image: url('../pics/nav_gallery_on.gif');
-}
-.nav#nav_contact {
-    height: 29px;
-    width: 96px;
-    background-image: url('../pics/nav_contact.gif');
+
+.menu#contact {
     background-color: #fdc589;
 }
-.nav:hover#nav_contact {
-    background-image: url('../pics/nav_contact_on.gif');
-}
-.nav#nav_about {
-    height: 29px;
-    width: 147px;
-    background-image: url('../pics/nav_about.gif');
+
+.menu#about {
     background-color: #fed09e;
 }
-.nav:hover#nav_about {
-    background-image: url('../pics/nav_about_on.gif');
-}
+
 .arrow {
-    height: 40px;
-    width: 650px;
-    background-size: contain;
+    position: relative;
+    font-size: 0em;
+    width: 0; 
+    height: 0; 
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
 }
 
 @media (max-width: 569px) {
-    .nav {
+    .title {
         background-size: contain;
     }
-    .nav.banner-pic {
+    .title#banner-pic {
         height: 0px;
     }
-    .nav#banner-title {
+    .title#banner {
         height: 50px;
         width: 100%;
         background-size: cover;
         background-position: bottom left;
     }
-    .nav-wrap {
+    .title-wrapper {
         height: 172px;
         margin: 0;
         width: 100%;
     }
-    .nav#nav_music { 
+    .menu-wrapper {
         width: 100%;
     }
-    .nav#nav_shows { 
-        width: 100%;
-    }
-    .nav#nav_walks { 
-        width: 100%;
-    }
-    .nav#nav_gallery { 
-        width: 100%;
-    }
-    .nav#nav_contact { 
-        width: 100%;
-    }
-    .nav#nav_about { 
+    .menu { 
         width: 100%;
     }
     .arrow {
-        height: 0px;
-        width: 0px;
-        margin-bottom: 10px;
+        border-left: none;
+        border-right: none;
+        border-top: none !important;
     }
 }

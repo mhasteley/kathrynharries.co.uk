@@ -48,13 +48,13 @@ a.gallHD {
     visibility: hidden;
 }
 
-.nav#banner-pic {
+.title#banner-pic {
     background-image: url('../pics/header_pic_gallery.jpg');
 }
 
 .nav#arrow-gallery {
-    background-image: url('../pics/arrow_gallery.png');
-    background-position: 352px center;
+    left:40%;
+    border-top: 40px solid #fcbb75;
 }
 
 #gallery-main-image {
@@ -320,8 +320,5 @@ only screen and (        min-device-pixel-ratio: 1.5),
 only screen and (min-resolution: 192dpi) {  
     .nav#banner-pic {
         background-image: url('../pics/header_pic_gallery-hd.jpg');
-    }
-    .nav#arrow-gallery {
-        background-image: url('../pics/arrow_gallery-hd.png');
     }
 }

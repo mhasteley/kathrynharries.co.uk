@@ -1,9 +1,9 @@
-.nav#banner-pic {
+.title#banner-pic {
     background-image: url('../pics/header_pic_contact.jpg');
 }
-.nav#arrow {
-    background-image: url('../pics/arrow_contact.png');
-    background-position: 448px center;
+.nav#arrow-contact {
+    left:60%;
+    border-top: 40px solid #fdc589;
 }
 #contact-main-image {
     margin: 0 130px 10px 0;
@@ -27,8 +27,5 @@ only screen and (min-resolution: 192dpi) {
     }  
     .nav#banner-pic {
         background-image: url('../pics/header_pic_contact-hd.jpg');
-    }
-    .nav#arrow {
-        background-image: url('../pics/arrow_contact-hd.png');
     }
 }

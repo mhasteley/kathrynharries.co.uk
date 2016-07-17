@@ -1,10 +1,10 @@
-.nav#banner-pic {
+.title#banner-pic {
     background-image: url('../pics/header_pic_about.jpg');
 }
 
 .nav#arrow-about {
-    background-image: url('../pics/arrow_about.png');
-    background-position: 596px center;
+    left:80%;
+    border-top: 40px solid #fed09e;
 }
 #about-main-image {
     margin: 0 130px 10px 0;
@@ -48,8 +48,5 @@ only screen and (min-resolution: 192dpi) {
     }  
     .nav#banner-pic {
         background-image: url('../pics/header_pic_about-hd.jpg');
-    }
-    .nav#arrow-about {
-        background-image: url('../pics/arrow_about-hd.png');
     }
 }

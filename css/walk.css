@@ -1,9 +1,9 @@
-.nav#banner-pic {
+.title#banner-pic {
     background-image: url('../pics/header_pic_walk.jpg');
 }
 .nav#arrow-walk {
-    background-image: url('../pics/arrow_walk.png');
-    background-position: 264px center;
+    left:20%;
+    border-top: 40px solid #fbb161;
 }
 #walk-main-image {
     margin: 0 130px 10px 0;
@@ -34,8 +34,5 @@ only screen and (min-resolution: 192dpi) {
     }  
     .nav#banner-pic {
         background-image: url('../pics/header_pic_walk-hd.jpg');
-    }
-    .nav#arrow-walk {
-        background-image: url('../pics/arrow_walk-hd.png');
     }
 }

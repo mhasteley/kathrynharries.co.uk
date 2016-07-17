@@ -5,7 +5,7 @@
     z-index: 1;
     margin: 0;
 }
-.nav#banner-title {
+.title#banner-title {
     height: 107px;
     width: 650px;
     background-image: url('../pics/header_index.gif');
