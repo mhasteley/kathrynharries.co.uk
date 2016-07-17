@@ -29,6 +29,8 @@
     height: 263px;
     z-index: 999;
     font-size: 0em;
+    background-size: cover;
+    background-position: top center;
 }
 div#slide1 {
     background-image:url('../pics/index_header_pic-shows.jpg');
@@ -49,7 +51,7 @@ div#slide6 {
     background-image:url('../pics/index_header_pic-walk.jpg');
 }
 
-@media (max-width: 321px) {
+@media (max-width: 650px) {
     .title#banner-pic, .nav.slide {
         height: 100%;
         width: 100%;
@@ -78,10 +80,11 @@ div#slide6 {
 
 }
 
-@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),  
-only screen and (   min--moz-device-pixel-ratio: 1.5),  
-only screen and (     -o-min-device-pixel-ratio: 3/2),  
-only screen and (        min-device-pixel-ratio: 1.5),  
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 1.5),  
+only screen and (min--moz-device-pixel-ratio: 1.5),  
+only screen and (-o-min-device-pixel-ratio: 3/2),  
+only screen and (min-device-pixel-ratio: 1.5),  
 only screen and (min-resolution: 192dpi) {  
     .title#banner-pic {
         background-image: url('../pics/index_header_pic-shows-hd.jpg');
